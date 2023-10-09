@@ -47,16 +47,12 @@ const triggerBuild = throttle(
         })
       );
       // Trigger a new build.
-      await fetch(url, {
+      await fetch(`${url}?branch=${branch}`, {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${personalAccessToken}`,
           ...headers,
         },
-        body: JSON.stringify({
-          ref: `refs/heads/${branch}`,
-          message: 'Triggered by Strapi',
-        }),
       });
     }
   },
