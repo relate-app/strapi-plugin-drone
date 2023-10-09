@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-drone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trigger builds in Drone CI",
   "repository": {
     "type": "git",
