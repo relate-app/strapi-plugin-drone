@@ -55,6 +55,7 @@ const triggerBuild = throttle(
         },
         body: JSON.stringify({
           ref: `refs/heads/${branch}`,
+          message: 'Triggered by Strapi',
         }),
       });
     }
