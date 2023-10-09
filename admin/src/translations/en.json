@@ -1,0 +1,13 @@
+{
+  "Settings.title": "Drone",
+  "Settings.description": "Push content changes from your team in Drone CI",
+  "Settings.section-label": "Drone plugin",
+  "Settings.link-name": "Configuration",
+  "Settings.list-empty": "You don't have any content yet, we recommend you to create your first Content-Type.",
+  "Settings.table.header-name": "Name",
+  "Settings.table.header-build": "Should trigger build",
+  "Settings.table.th-status": "Status",
+  "Settings.content-type.enabled": "Enabled",
+  "Settings.content-type.disabled": "Disabled",
+  "Settings.save-sucess": "Settings have been updated"
+}
