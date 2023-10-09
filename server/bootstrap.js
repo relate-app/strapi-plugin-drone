@@ -77,7 +77,7 @@ module.exports = async ({ strapi }) => {
       case 'afterDeleteMany': {
         const uid = event.model.uid;
         const contentTypes = (await pluginStore.get({ key: 'content-types' })) || {};
-        if (contentTypes[uid].build) {
+        if (contentTypes[uid] && contentTypes[uid].build) {
           triggerBuild(strapi);
         }
         break;
